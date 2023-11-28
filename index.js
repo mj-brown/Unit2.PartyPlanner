@@ -42,7 +42,7 @@ function renderEvents() {
             <p>${event.description}</p>
             <p>${event.date}</p>
             <p>${event.location}</p>
-            <button id="deleteBtn" data-id="${event.id}">Delete Event</button>
+            <button id="deleteBtn" data-id="${event.id}" style="max-width: 150px; padding: 10px; margin: 15px; background-color: gold; font-size: 20px; font-weight: bold; border: 3px solid gold; border-radius: 5px; cursor: pointer;">Delete Event</button>
         `;
     return li;
   });

@@ -1,0 +1,113 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1531686264889-56fdcabd163f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 5px solid gold;
+  color: gold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 45px;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 5px solid gold;
+  color: gold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row warp;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  border: 5px solid gold;
+  color: gold;
+  flex: 1 1 300px;
+  margin: 10px;
+  max-height: 400px;
+  overflow: auto;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+
+p {
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 5px solid gold;
+  color: /*#f0ff9a*/gold;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
+  max-width: 400px;
+  padding: 10px;
+}
+
+label {
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+input {
+  background-color: #eeffc1;
+  font-size: 15px;
+  height: 30px;
+  margin: 5px;
+}
+
+#description {
+  height: 100px;
+  width: 300px;
+}
+
+#addEventBtn {
+  background-color: gold;
+  border-radius: 5px;
+  border: 3px solid gold;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  max-width: 150px;
+  padding: 5px;
+}
+
+#formTitle {
+  text-align: center;
+}
+
+#date {
+  cursor: pointer;
+}
